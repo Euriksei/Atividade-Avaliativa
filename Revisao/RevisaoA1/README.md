@@ -1,18 +1,17 @@
-## Getting Started
+# Exercício 1: Jogo de Adivinhação
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Enunciado:
+Desenvolva um programa em Java que gere um número aleatório de 1 a 100 e peça ao usuário para adivinhar qual é esse número. O programa deve informar se o número digitado pelo usuário é maior ou menor que o número gerado aleatoriamente. O jogo continua até que o usuário acerte o número ou atinja o número máximo de 10 tentativas. Ao final, exiba uma mensagem informando se o usuário venceu (acertou o número) ou perdeu (caso não tenha acertado dentro das 10 tentativas). Informe ainda todos os números digitados pelo usuário e qual foi o número sorteado.
 
-## Folder Structure
+Em Java, é possível gerar um número aleatório utilizando a classe Random. Exemplo de geração de um número aleatório entre 1 e 100:
 
-The workspace contains two folders by default, where:
+```java
+import java.util.Random;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+public class Exemplo {
+    public static void main(String[] args) {
+        Random random = new Random();
+        int numeroAleatorio = random.nextInt(100) + 1;
+        System.out.println("Número gerado: " + numeroAleatorio);
+    }
+}

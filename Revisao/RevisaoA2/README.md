@@ -1,18 +1,36 @@
-## Getting Started
+# Exercício 2: Cadastro de Peças
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Enunciado:
+Desenvolva um programa em Java que permita o cadastro de 10 peças fabricadas. Para cada peça, o usuário deverá informar:
 
-## Folder Structure
+- **Identificador numérico da peça** (um número inteiro positivo);
+- **Quantidade produzida** (um número inteiro positivo entre 0 e 100);
+- **Ação futura da peça**:
+  - 1 — Aprovar;
+  - 2 — Ajustar;
+  - 3 — Sucatar.
 
-The workspace contains two folders by default, where:
+O programa deve armazenar as peças em vetores distintos conforme a categoria informada. Assim, haverá três vetores: um para itens Aprovados, outro para itens que necessitam de Ajuste e um terceiro para peças que serão Sucatadas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O programa deve validar as entradas utilizando os métodos `scanner.hasNextInt()` e `scanner.hasNextDouble()`. Caso o usuário digite um valor inválido, solicite a digitação novamente.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Após o encerramento do cadastro, exiba a listagem das peças cadastradas em cada categoria.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Em Java, é possível validar se a próxima entrada é um número inteiro utilizando o método `scanner.hasNextInt()`. Exemplo de validação de entrada:
 
-## Dependency Management
+```java
+import java.util.Scanner;
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+public class ExemploValidacao {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Digite um número inteiro: ");
+    if (scanner.hasNextInt()) {
+      int valor = scanner.nextInt();
+      System.out.println("Valor digitado: " + valor);
+    } else {
+      System.out.println("Valor inválido!");
+    }
+  }
+}

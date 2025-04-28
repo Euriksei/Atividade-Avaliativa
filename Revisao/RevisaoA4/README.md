@@ -1,18 +1,45 @@
-## Getting Started
+# Exercício 4: Análise das Vendas de Produtos de uma Loja
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Enunciado:
+Desenvolva um programa em Java para realizar a análise das vendas de produtos de uma loja. O sistema deverá permitir o cadastro de um conjunto de produtos. Para cada produto, o usuário deverá informar:
 
-## Folder Structure
+1. Identificador numérico do produto (um número inteiro positivo);
+2. Preço de compra;
+3. Quantidade comprada;
+4. Preço de venda;
+5. Quantidade vendida.
 
-The workspace contains two folders by default, where:
+O programa deve suportar um cadastro de até 50 produtos. O cadastro de produtos deverá ser encerrado quando o sistema atingir o limite ou quando o usuário digitar `-1` como identificador.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Após o cadastro, o programa deve exibir um relatório final contendo, para cada produto:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Identificador do produto;
+- Balanço financeiro do produto: 
+  \[
+  (\text{{preço de venda}} \times \text{{quantidade vendida}}) - (\text{{preço de compra}} \times \text{{quantidade comprada}})
+  \]
+- Classificação do produto:
+  - Lucrativo: se o balanço for positivo.
+  - Não lucrativo: se o balanço for negativo.
+  - Neutro: se o balanço for igual a 0.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O programa também deve identificar e exibir:
 
-## Dependency Management
+- O produto mais lucrativo;
+- O produto menos lucrativo (ou o mais deficitário).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Regras:
+- O sistema deve suportar até 50 produtos.
+- O cadastro de produtos é encerrado quando o número de produtos atinge o limite ou o usuário digita `-1` como identificador do produto.
+- O programa deve exibir um relatório com os dados de cada produto, incluindo o balanço financeiro e sua classificação.
+
+### Saída:
+Ao final, o programa deve exibir um relatório contendo:
+
+- Para cada produto:
+  - Identificador;
+  - Balanço financeiro;
+  - Classificação (Lucrativo, Não lucrativo, Neutro).
+  
+- O produto mais lucrativo.
+- O produto menos lucrativo (ou o mais deficitário).

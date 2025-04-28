@@ -1,18 +1,32 @@
-## Getting Started
+# Pratica 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+• Aprendendo a trabalhar com entrada de dados e variáveis.
 
-## Folder Structure
+• Escreva um programa que imprima a mensagem "Olá, [nome]!", onde [nome] é o 
+nome do usuário.
 
-The workspace contains two folders by default, where:
+## Entradas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+• O programa não deve receber nenhuma entrada.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saídas
 
-## Dependency Management
+• O programa deve imprimir a mensagem "Olá, [nome]!", onde [nome] é o nome do
+usuário.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+### Instruções
+
+• Crie uma variável chamada nome e atribua a ela o valor do seu nome;
+
+• Imprima a mensagem "Olá, [nome]!", substituindo [nome] pelo valor da variável
+nome.
+
+### Exemplo
+
+• cadeia nome = "João"
+
+• Saída:
+
+• Olá, João!

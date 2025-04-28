@@ -1,8 +1,8 @@
-### Exercício 1: Impressão de Números de 1 a 50  
+### Exercício 1: Validação de Entrada de Dados  
 
 **Enunciado:**  
-Crie um programa que utilize um loop **while** para imprimir, em linhas separadas, os números de 1 até 50.  
+Crie um programa que solicite ao usuário um número entre 1 e 100.  
 **Requisitos:**  
 
-- Utilizar a estrutura de repetição **while**;  
-- Imprimir cada número em uma nova linha.
+- Utilize um loop **do..while** para garantir que o valor informado esteja dentro do intervalo;  
+- Exibir o número validado após a saída do loop.

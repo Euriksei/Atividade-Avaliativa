@@ -1,18 +1,18 @@
-## Getting Started
+# Pratica 7
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que leia seis nomes e seis idades correspondentes, armazene-os
+em variáveis e, em seguida, calcule a soma e a média das idades. 
+Por fim, imprima todos os nomes com suas respectivas idades, 
+a soma total e a média das idades.
 
-## Folder Structure
+## Entrada 
 
-The workspace contains two folders by default, where:
+A entrada consiste de doze linhas. As linhas ímpares contêm os nomes,
+e as linhas pares contêm as idades correspondentes (números inteiros). 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Saída
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A saída deve conter oito linhas. As seis primeiras linhas devem 
+conter cada nome seguido pela idade correspondente. 
+A sétima linha deve mostrar a soma total das idades, e a oitava linha deve mostrar a média
+das idades.

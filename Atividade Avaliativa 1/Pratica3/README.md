@@ -1,18 +1,19 @@
-## Getting Started
+# Pratica 3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que leia, em sequência,dois nomes, 
+coloque-os em duas variáveis e, logo depois imprima-os na tela, 
+no seguinte formato:
 
-## Folder Structure
+• "Nome1: {nome1}"
 
-The workspace contains two folders by default, where:
+• "Nome2: {nome2}"
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Entrada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A entrada consiste de duas linhas, cada uma
+contendo um nome.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A saída consiste de duas linhas, cada uma
+contendo um nome.

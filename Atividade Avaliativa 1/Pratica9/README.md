@@ -1,18 +1,16 @@
-## Getting Started
+# Pratica 9
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que solicite a altura e o peso de uma pessoa e, em seguida, calcule e imprima
+o Índice de Massa Corporal (IMC) dessa pessoa.
 
-## Folder Structure
+## Entrada
 
-The workspace contains two folders by default, where:
+A entrada consiste de duas linhas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A primeira linha contém a altura da pessoa (em metros).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A segunda linha contém o peso da pessoa (em quilogramas).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A saída deve conter uma linha com o IMC calculado da pessoa.

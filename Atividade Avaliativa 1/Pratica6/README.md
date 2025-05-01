@@ -1,18 +1,19 @@
-## Getting Started
+# Pratica 6
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que leia, em sequência, dois pares de números e, 
+logo depois, imprima a soma de cada par no seguinte formato:
 
-## Folder Structure
+• "Soma1: {soma1}"
 
-The workspace contains two folders by default, where:
+• "Soma2: {soma2}"
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Entrada
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A entrada consiste de quatro linhas. As duas primeiras linhas contêm 
+o primeiro e o segundo número do primeiro par (números inteiros), e as
+duas últimas linhas contêm o primeiro e o segundo número do segundo par (números inteiros).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Saída
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A saída consiste de duas linhas, cada uma
+contendo a soma de um par de números.

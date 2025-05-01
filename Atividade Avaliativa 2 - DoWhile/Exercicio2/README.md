@@ -1,18 +1,14 @@
-## Getting Started
+### Exercício 2: Menu Interativo  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Enunciado:**  
+Desenvolva um programa que apresente ao usuário um menu com as seguintes opções:  
 
-## Folder Structure
+1. Adicionar  
+2. Remover  
+3. Sair  
 
-The workspace contains two folders by default, where:
+**Requisitos:**  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Use um loop **do..while** para permitir que o usuário escolha uma opção;  
+- Para as opções 1 e 2, exiba uma mensagem indicando que a ação foi executada (a implementação da funcionalidade pode ser simulada);  
+- Encerrar o loop somente quando a opção 3 (Sair) for escolhida.

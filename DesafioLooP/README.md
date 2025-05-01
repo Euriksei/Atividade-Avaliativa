@@ -1,18 +1,25 @@
-## Getting Started
+Desenvolva um programa que funcione como uma **calculadora de rendimento para aplicações financeiras**, permitindo que o usuário realize **diversos cálculos em sequência** por meio de um **loop**. A cada iteração, o programa deve:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. **Solicitar** ao usuário
+    - O valor do investimento inicial (*P*);
+    - A taxa de juros anual (*r*);
+    - O período de investimento em anos (*t*);
+    - A opção de **capitalização** (simples ou composta).
 
-## Folder Structure
+2. **Calcular** o **montante** (*M*) ao final do período, utilizando:
+    - **Capitalização simples**:
+      $$M = P \times \left(1 + \frac{r}{100} \times t\right)$$
+    - **Capitalização composta**:
+      $$M = P \times \left(1 + \frac{r}{100}\right)^t$$
 
-The workspace contains two folders by default, where:
+3. **Exibir** o valor do montante calculado, de forma organizada.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+4. **Perguntar** se o usuário deseja realizar um novo cálculo. Se a resposta for positiva, o programa deve **repetir** todo o processo (retornando ao passo 1). Caso contrário, o programa deve **encerrar** a execução.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Observações adicionais
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Utilize **funções ou métodos** para organizar o código e facilitar a manutenção.
+- Inclua comentários relevantes para explicar cada parte do código.
+- O programa pode ser desenvolvido em **Java, Python, C#, C++ ou Rust**.
+- **Versione** seu código em um repositório no **GitHub**.
+- Certifique-se de que o resultado final seja **exibido na tela** de forma clara ao final de cada iteração.

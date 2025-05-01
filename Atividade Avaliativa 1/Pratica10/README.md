@@ -1,18 +1,11 @@
-## Getting Started
+# Pratica 10
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que solicite dois valores de quilometragem em uma estrada e calcule a distância em quilômetros entre um ponto e outro.
 
-## Folder Structure
+## Entrada
 
-The workspace contains two folders by default, where:
+A entrada consiste de duas linhas, cada uma contendo um valor de quilometragem (números inteiros ou decimais).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Saída
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A saída deve conter uma linha com a distância calculada entre os dois pontos.

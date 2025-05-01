@@ -1,18 +1,23 @@
-## Getting Started
+# Pratica 8
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Escreva um programa que solicite o nome de uma cidade, a distância desde a sua casa até a cidade, quantos quilômetros por litro seu carro faz e o valor do litro de gasolina. Em seguida, calcule o custo da viagem em combustível e imprima o resultado.
 
-## Folder Structure
+## Entrada
 
-The workspace contains two folders by default, where:
+A entrada consiste de quatro linhas.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A primeira linha contém o nome da cidade.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A segunda linha contém a distância até a sua casa (em quilômetros).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+A terceira linha contém a eficiência do carro (em quilômetros por litro).
 
-## Dependency Management
+A quarta linha contém o valor do litro de gasolina (em reais).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Saída
+
+A saída deve conter duas linhas.
+
+A primeira linha deve mostrar o nome da cidade.
+
+A segunda linha deve mostrar o custo da viagem em combustível.

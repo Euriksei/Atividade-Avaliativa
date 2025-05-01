@@ -1,18 +1,9 @@
-## Getting Started
+### Exercício 4: Cálculo de Média de Notas  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Enunciado:**  
+Desenvolva um programa que permita inserir várias notas (de 0 a 10) de alunos.  
+**Requisitos:**  
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Utilize um loop **do..while** para solicitar as notas;  
+- Após cada inserção, pergunte se o usuário deseja continuar inserindo notas (por exemplo, "Deseja inserir outra nota? (s/n)");  
+- Ao final, calcule e exiba a média das notas inseridas.
